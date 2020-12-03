@@ -23,7 +23,7 @@
     margin: 0;
 }
 .detail-price{
-    color: #219FD1;
+    color:red;
 }
 .slider-item .slider-main-detail .rating{
     color: #777;
@@ -49,8 +49,8 @@
     margin-top: 20px;
 }
 .btn-info,.btn-info:visited,.btn-info:hover{
-	background-color: #21BBD8;
-	border-color: #21BBD8;
+	background-color: red;
+	border-color: red;
 }
 .btn-info{
 	margin-left:5px;
