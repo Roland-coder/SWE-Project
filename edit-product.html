@@ -1,0 +1,193 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>BetterHelp</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style> 
+            /* Add a black background color to the top navigation */
+                .topnav {
+                    background-color: #32383e;
+                    overflow: hidden;
+                }
+
+                /* Style the links inside the navigation bar */
+                .topnav a {
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+                text-align: centre;
+                
+                }
+
+                /* Change the color of links on hover */
+                .topnav a:hover {
+                background-color: #ddd;
+                color: black;
+                }
+
+                /* Add a color to the active/current link */
+                .topnav a.active {
+                background-color: #4CAF50;
+                color: white;
+                }
+
+               
+                        
+        </style>
+    </head>
+    <body style="background-color: #C71585">
+        <header>
+            <div class="container">
+                <div class="topnav" style="margin: 40px;">
+                    <a href="admin.html" style="margin-left: 130px">Home</a>
+                    <a href="add-product.html">Add Product</a>
+                    <a href="delete-product.html">Delete Product</a>
+                    <a href="edit-product.html">Edit Product</a>
+                    <a href="admin.html">View Transactions</a>
+                    
+                </div>
+
+                <table class="table table-dark table-striped table-hover" style="width: 95%; margin-left: 3%">
+                    <thead>
+                        <tr>
+                            <th>Product Category</th>
+                            <th>Product Name(ID)</th>
+                            <th>Amount</th>
+                            <th>Number Availbale</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Women</td>
+                            <td>off the shoulder</td>
+                            <td>$450</td>
+                            <td>5</td>
+                            <td>
+                                
+                                <form action="" name="FILTER">
+                                    <select name="filter_for" >
+                                        <option value="Druck">Edit</option>
+                                        <option value="Zahl">Delete</option>
+                                        
+                                    </select>
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Shoes</td>
+                            <td>Nike</td>
+                            <td>$750</td>
+                            <td>19</td>
+                            <td>
+                                
+                                <form action="" name="FILTER">
+                                    <select name="filter_for" >
+                                        <option value="Druck">Edit</option>
+                                        <option value="Zahl">Delete</option>
+                                        
+                                    </select>
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Men</td>
+                            <td>Gucci Shirt</td>
+                            <td>$9000</td>
+                            <td>90</td>
+                            <td>
+                                    
+                                <form action="" name="FILTER">
+                                    <select name="filter_for" >
+                                        <option value="Druck">Edit</option>
+                                        <option value="Zahl">Delete</option>
+                                        
+                                    </select>
+                                </form>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Groceries</td>
+                            <td>Apple Juice</td>
+                            <td>$4500</td>
+                            <td>3</td>
+                            <td>
+                                    
+                                <form action="" name="FILTER">
+                                    <select name="filter_for" >
+                                        <option value="Druck">Edit</option>
+                                        <option value="Zahl">Delete</option>
+                                        
+                                    </select>
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Men</td>
+                            <td>Air FOrce</td>
+                            <td>$4450</td>
+                            <td>43</td>
+                            <td>
+                                    
+                                <form action="" name="FILTER">
+                                    <select name="filter_for" >
+                                        <option value="Druck">Edit</option>
+                                        <option value="Zahl">Delete</option>
+                                        
+                                    </select>
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Women</td>
+                            <td>Top Heels</td>
+                            <td>$4050</td>
+                            <td>45</td>
+                            <td>
+                                    
+                                <form action="" name="FILTER">
+                                    <select name="filter_for" >
+                                        <option value="Druck">Edit</option>
+                                        <option value="Zahl">Delete</option>
+                                        
+                                    </select>
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Men</td>
+                            <td>Shine Bright</td>
+                            <td>$450</td>
+                            <td>45</td>
+                            <td>
+                                    
+                                <form action="" name="FILTER">
+                                    <select name="filter_for" >
+                                        <option value="Druck">Edit</option>
+                                        <option value="Zahl">Delete</option>
+                                        
+                                    </select>
+                                </form>
+                            </td>
+                        </tr>
+                        
+                        
+                        
+                    </tbody>
+                </table>
+            </div>
+        </header>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>

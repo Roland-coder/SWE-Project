@@ -36,11 +36,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-      <a class="navbar-brand " href="index.html" style="color: black; font-family: Arial, Helvetica, sans-serif; font-size: 25px;"><b>BetterHelp</b></a>
+      <a class="navbar-brand " href="home.html" style="color: black; font-family: Arial, Helvetica, sans-serif; font-size: 25px;"><b>BetterHelp</b></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
     <ul class="nav navbar-nav">
-      <li ><a href="index.html"><b>Home</b></a></li>
+      <li ><a href="home.html"><b>Home</b></a></li>
       
       <li><a href="about.html"><b>About</b></a></li>
       <li><a href="shop.html"><b>Shop</b></a></li>
@@ -50,8 +50,12 @@
     <ul class="nav navbar-nav navbar-right">
      
       <li><a href="shopping-cart.html"><span class="glyphicon glyphicon-shopping-cart"></span> <b></b></a></li>
-      <li><a href="register.html"><span class="glyphicon glyphicon-user"></span> <b>Sign Up</b></a></li>
-      <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> <b>Login</b></a></li>
+      <li><div class="dropdown">
+        <img class="btn dropdown-toggle" src="images/user.jpeg" alt="dropdown image" data-toggle="dropdown" class="img-responsive" style="border-radius: 100px; height: 50px; margin-top: 20px;">
+        <ul class="dropdown-menu">
+            <li><a href="profile.html">View Profile</a></li>
+            <li><a href="index.html">Log Out</a></li>
+            <!-- <li><a href="#">Dropdown menu 3</a></li> -->
     </ul>
    </div>  
   </div>
@@ -62,8 +66,55 @@
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 
-
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><img src="images/product-detail-1.jpg" style="height: 50px;"> <span> 	Fresh Strawberries</span></td>
+              <td>$350</td>
+              <td>5</td>
+              <td>$3500</td>
+            </tr>
+            <tr>
+              <td><img src="images/product-detail-2.jpg" style="height: 50px;"> <span> 		Lightweight Jacket</span></td>
+              <td>$350</td>
+              <td>5</td>
+              <td>$3500</td>
+            </tr>
+            <tr>
+              <td><img src="images/product-detail-1.jpg" style="height: 50px;"> <span> 	Fresh Strawberries</span></td>
+              <td>$350</td>
+              <td>5</td>
+              <td>$3500</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-sm-4">
+        <h2><b>Cart Total</b></h2></h2>
+        <p><b>Sub Total: </b> <span>$4500</span></p>
+        <p><b>Shipping: </b> <span>$500</span></p>
+        <p><b>Total:    </b> <span>$5000</span></p>
+        <button type="button" class="btn btn-primary">Checkout</bu
+      </div>
+    </div>
+  </div>
+</section>
 
 
 <footer class="bg-3 pt-75 pb-140">
@@ -112,3 +163,4 @@
 </body>
 
 </html>
+
